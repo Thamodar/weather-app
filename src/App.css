@@ -1,38 +1,164 @@
-.App {
-  text-align: center;
+* {
+    height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: rgb(29, 55, 107);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1,
+p {
+    height: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.weather-app {
+    background-color: #2458f5;
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.flexbox {
+    display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flex-align-center {
+    align-items: center;
+}
+
+.flex-justify-center {
+    justify-content: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.wd-container {
+    width: 100%;
+    height: 70%;
+    color: #2458f5;
+}
+
+.dd-container {
+    width: 25%;
+    height: 100%;
+}
+
+.dd-greet-container {
+    position: relative;
+    width: 75%;
+    height: 100%;
+    background: url(./assets/Images/greetingImage.jpg);
+}
+
+.wl-container {
+    width: 1200px;
+    height: 160px;
+    color: #2458f5;
+    background-color: white !important;
+}
+
+
+.fontsize-1 {
+    font-size: 0.45rem;
+}
+
+.fontsize-2 {
+    color: white !important;
+    font-size: 0.9rem;
+}
+
+.rain {
+    background: url(./assets/Images/icons.jpeg) -248px -432px;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.fontsize-2>.rain {
+    width: 50px;
+    height: 10px;
+}
+
+.thunderstorm {
+    background: url(./assets/Images/icons.jpeg) -432px -432px;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.fontsize-2>.thunderstorm {
+    width: 50px;
+    height: 10px;
+}
+
+.drizzle {
+    background: url(./assets/Images/icons.jpeg) -56px -432px;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.fontsize-2>.drizzle {
+    width: 50px;
+    height: 10px;
+}
+
+.snow {
+    background: url(./assets/Images/icons.jpeg) -616px -432px;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.fontsize-2>.snow {
+    width: 50px;
+    height: 10px;
+}
+
+.mist,
+.smoke .haze,
+.dust,
+.fog,
+.sand,
+.dust,
+.ash,
+.squall,
+.tornado {
+    background: url(./assets/Images/icons.jpeg) -448px -264px;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.fontsize-2>.mist,
+.smoke .haze,
+.dust,
+.fog,
+.sand,
+.dust,
+.ash,
+.squall,
+.tornado {
+    width: 50px;
+    height: 10px;
+}
+
+.clear {
+    background: url(./assets/Images/icons.jpeg) -72px -64px;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.fontsize-2>.clear {
+    width: 50px;
+    height: 10px;
+}
+
+.clouds {
+    background: url(./assets/Images/icons.jpeg) -616px -64px;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.fontsize-2>.clouds {
+    width: 60px;
+    height: 10px;
 }
